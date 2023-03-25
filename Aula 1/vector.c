@@ -37,3 +37,12 @@ data_type vector_get(Vector *v, int index){
 void vector_set(Vector *v, int i, data_type val){
     v->data[i] = val;
 }
+
+int vector_find(Vector *v, data_type val){
+    for(int i = 0; i < v->size; i++){
+        if(v->data[i] == val){
+            return i;
+        }
+    }
+    return -1;
+}
