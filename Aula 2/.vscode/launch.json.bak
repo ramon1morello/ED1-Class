@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "debugar codigo",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": ".",
+            "program": "${workspaceRoot}/main-2",
+            "args": [],
+            "preLaunchTask": "compilacao",
+        }
+    ]
+}
